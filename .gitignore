@@ -1,4 +1,14 @@
+# 가상환경
 .venv/
+
+# 환경변수
+.env
+
+# LoRA 훈련 데이터 & 결과물 (너무 큼)
+lora_training/images/
+lora_training/output/
+
+# 캐시 파일
 __pycache__/
 *.pyc
 *.pyo
@@ -9,12 +19,7 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-.env
 .idea/
 .vscode/
 *.log
 uv.lock
-
-
-
-
